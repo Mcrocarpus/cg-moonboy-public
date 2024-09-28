@@ -6,7 +6,7 @@ function Module:onLoad()
 end
 
 function Module:OnRecv(fd, head, data)
-  if data[1] then
+	if data[1] then
 		local charIndex = Protocol.GetCharByFd(fd)
 		if data[1] == "1" then
 			self:sortButton(charIndex)
@@ -21,7 +21,7 @@ function Module:sortButton(charIndex)
 end
 
 function Module:onUnload()
-  self:logInfo('unload');
+	self:logInfo('unload');
 end
 
 return Module;

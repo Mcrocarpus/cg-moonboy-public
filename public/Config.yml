@@ -1,0 +1,11 @@
+SETTING:
+  SimplyWarp: 1  # 快速切图，0关闭，1开启，默认值：0
+  DisplayEnemyInfo: 1  # 怪物显血，F1开关名字，F2开关血条，0关闭，1开启，默认值：0
+  SetBattleActionTime: 120000  # 战斗时间ms，默认值：60000
+  SetAutoBattleDelayTime: 1000  # 自动战斗时间等待ms，默认值：3000
+  SetActionTime: 10  # 生产时间%，默认值：100
+  PetHelpCheckLevel: 1  # 控制宠物帮助是否检查宠物等级，0禁用检查，1启用检查，默认值：1
+  ExtBagPage: 1  # 额外背包，默认0，最大3
+  MouseAutoSpeed: 1  # 鼠标连点增加兑换速度，0关闭，1开启，默认值：0
+  RemoveBuyLimit: 1  # 移除购买上限，0关闭，1开启，默认值：0
+  ColorfulItemName: [1,100]  # 扩展彩色装备名字ID，范围
