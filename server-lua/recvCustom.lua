@@ -8,7 +8,7 @@ end
 function Module:OnRecv(fd, head, data)
 	if data[1] then
 		local charIndex = Protocol.GetCharByFd(fd)
-		if data[1] == "1" then
+		if data[1] == "0" then
 			self:sortButton(charIndex)
 		end
 	end
