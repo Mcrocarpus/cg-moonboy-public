@@ -10,6 +10,9 @@ function Module:OnRecv(fd, head, data)
 		local charIndex = Protocol.GetCharByFd(fd)
 		if data[1] == "0" then
 			self:sortButton(charIndex)
+		--"1~n"对应扩展菜单
+		--elseif data[1] == "1" then
+			
 		end
 	end
 	-- 服务器不处理自定义封包
