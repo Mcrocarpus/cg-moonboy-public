@@ -13,10 +13,10 @@
 10. 自动生产
 11. 背包扩展
 12. 整理快捷键
-13. 快捷键菜单
+13. 扩展菜单
 ## 已修复bug
-若干
+修复所有已知非战斗bug，由于是bug，不公开细节
 ## 服务器对应lua
-1. recvCustom.lua
+1. recvCustom.lua（包含整理与扩展菜单封包）
 ### 下载地址
 [releases](https://github.com/Mcrocarpus/cg-moonboy-public/releases)
